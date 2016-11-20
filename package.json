@@ -1,0 +1,27 @@
+{
+  "name": "charmfind",
+  "version": "1.0.0",
+  "description": "A crowdsourced website that can tell you which dining halls at RPI have Lucky Charms.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "easyjson": "^0.1.2",
+    "express": "^4.14.0",
+    "moment": "^2.15.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JCBird1012/Charmfind.git"
+  },
+  "author": "Jonathan Caicedo",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/JCBird1012/Charmfind/issues"
+  },
+  "homepage": "https://github.com/JCBird1012/Charmfind#readme"
+}

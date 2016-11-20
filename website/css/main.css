@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+   body {
+         height: 100%;
+         background-image: url("../img/downtown.jpg");
+         background-size: cover;
+         background-attachment: fixed;
+         filter: brightness(100%);
+	   }
+   
+   img {
+      width: 10em;
+   }
+
+   p {
+      font-size:1em;
+   }
+
+   #header { 
+		margin: 0;
+		padding: 0;
+		color: #c0392b;
+		font-size: 50px;
+		font-family: 'Montserrat', sans-serif;
+		text-shadow: 1px 1px #000000;
+	}
+
+	#description { 
+		margin: 0;
+		padding: 0;
+		margin-bottom: 45px;
+		color: #96281B;
+		font-size: 15px;
+		font-family: 'Montserrat', sans-serif;
+		text-shadow: 1px 1px #000000;
+	}
+
+	.dininghall {
+		color: #FFFFFF;
+		font-size: 30px;
+		font-family: 'Montserrat', sans-serif;
+		width: 100%;
+	}
+
+	.available
+	{
+		visibility: visible;
+		color: #27ae60;
+		font-size: 20px;
+		font-family: 'Montserrat', sans-serif;
+		display: block;
+		margin: 0px;
+	}
+
+	.unavailable
+	{
+		visibility: visible;
+		color: #e74c3c;
+		font-size: 20px;
+		font-family: 'Montserrat', sans-serif;
+		display: block;
+		margin: 0px;
+	}
+
+	.greencheck
+	{
+    	max-width: 20px;
+    	height: auto;
+    	clear: right;
+    	display: inline-block;
+	}
+
+	.redx
+	{
+		max-width: 20px;
+    	height: auto;
+    	clear: right;
+    	display: inline-block;
+	}
+
+	.updated
+	{
+		font-size: 10px;
+		color:#FFFFFF;
+	}
+
+	.timestamp
+	{
+		font-size: 10px;
+		color:#FFFFFF;
+	} 
+
+   li {
+      display: inline-block;
+      width: 45%;
+      padding-bottom: 1%;
+      padding: 1em;
+   }
+
+	footer
+	{
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+		color: #FFFFFF;
+		font-family: 'Montserrat', sans-serif;
+		padding: 1.5em 0 0 0;
+		text-align: center;
+	}
+
+	button {
+		font-family: 'Montserrat', sans-serif;
+      font-size: initial;
+		display: inline-block;
+		height: 2.0em;
+		line-height: 2.0em;
+		padding: 0 0.5em;
+      margin-top: 15px;
+		padding-bottom: 15px;
+		background-color: transparent;
+		border-radius: 2px;
+		border: solid 1px #c8cccf;
+		color: #FFFFFF;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		white-space: nowrap;
+	}
+
+   button.available {
+      font-size: initial;
+      margin-top: 15px;
+      color: #FFFFFF;
+      border: solid 1px #c8cccf;
+   }
+   
+   button.available:hover {
+      background-color: #27ae60;
+      transition: background-color 0.25s;
+   }
+
+   button.unavailable {
+      border: solid 1px #c8cccf;
+      margin-top: 15px;
+      font-size: initial;
+      color: #FFFFFF;
+      margin-left: 1em;
+   }
+   
+   button.unavailable:hover {
+      background-color: #e74c3c;
+      transition: background-color 0.25s;
+   }
+
+@media only screen and (max-device-width: 480px) {
+   
+   li
+   {
+      margin: auto
+      display: inline-block;
+      width: 100%;
+      padding-bottom: 1%;
+      padding: 1em;
+   }
+   
+   footer
+	{
+      position: relative;
+      bottom: 0;
+      width: 100%;
+		color: #FFFFFF;
+		font-family: 'Montserrat', sans-serif;
+		padding: 1.5em 0 0 0;
+		text-align: center;
+	}
