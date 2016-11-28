@@ -20,27 +20,27 @@ app.post('/data/update', function(req, res) {
 
 app.get('/data/info', function(req, res) {
    var id = req.query.id;
-   
+
     if (id === undefined)
       {
          res.send(json.path('data/data.json').get('results'));
       }
-   
-   else 
+
+   else
    {
       id = parseInt(id);
-      
-      if (isNaN(id) || !(id >= 0 && id <= 3))
+
+      if (isNaN(id) || !(id >= 0 && id <= 5))
       {
          res.status(400);
          res.send("ID isn't an acceptable dining hall ID.");
       }
-      
+
       else
       {
          res.send(json.path('data/data.json').get('results[' + id + ']'));
       }
-    
+
    }
 });
 
@@ -50,19 +50,19 @@ function process(id, update, res)
    id = parseInt(id);
    var last_updated = json.path('data/data.json').get ('results[' + id + '][last_updated]');
    var availability = json.path('data/data.json').get ('results[' + id + '][availability]');
-   
+
    if (update != "true" && update != "false")
       {
          res.status(400);
          res.send("Available isn't a valid boolean.");
       }
-   
-   else if (isNaN(id) || !(id >= 0 && id <= 3))
+
+   else if (isNaN(id) || !(id >= 0 && id <= 5))
       {
          res.status(400);
          res.send("ID isn't an acceptable dining hall ID.");
       }
-   
+
    else
       {
          if (value.toString() === update)
@@ -70,7 +70,7 @@ function process(id, update, res)
                   json.path('data/data.json').modify('results[' + id + '][last_updated]', moment().format("dddd, MMMM Do YYYY, h:mm:ss a"));
                res.send("Last updated renewed.");
             }
-         
+
          //You'll get a deprecation warning from moment here... That's fine (it doesn't break anything, yet...)
          else if (moment().diff(moment(last_updated, ["dddd, MMMM Do YYYY, h:mm:ss a"]), 'hours') >= 6)
             {
@@ -80,7 +80,7 @@ function process(id, update, res)
                  json.path('data/data.json').modify('results[' + id + '][availability]', moment().format("dddd, MMMM Do YYYY, h:mm:ss a"));
                res.send("Updated.");
             }
-        
+
          else
             {
                 res.send("At least six hours must elapse from latest availability update before status can be changed.");

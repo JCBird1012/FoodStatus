@@ -3,30 +3,44 @@
         {
             "dining_hall": "Blitman_Commons",
             "id": 0,
-            "available": true,
-            "last_updated": "Thursday, June 23rd 2016, 8:37:38 pm",
-            "availability": "Thursday, June 23rd 2016, 8:27:23 pm"
+            "available": false,
+            "last_updated": "Sunday, November 27th 2016, 11:14:18 pm",
+            "availability": "Sunday, November 27th 2016, 11:14:18 pm"
         },
         {
             "dining_hall": "Burdett_Avenue_Residence_Hall",
             "id": 1,
             "available": true,
-            "last_updated": "Thursday, June 23rd 2016, 8:27:38 pm",
+            "last_updated": "Sunday, November 27th 2016, 12:23:55 am",
             "availability": "Thursday, June 23rd 2016, 8:27:38 pm"
         },
         {
             "dining_hall": "Commons",
             "id": 2,
-            "available": false,
-            "last_updated": "Thursday, June 23rd 2016, 8:21:56 pm",
-            "availability": "Thursday, June 23rd 2016, 8:21:56 pm"
+            "available": true,
+            "last_updated": "Sunday, November 27th 2016, 12:55:58 am",
+            "availability": "Sunday, November 27th 2016, 12:23:58 am"
         },
         {
             "dining_hall": "Sage",
             "id": 3,
             "available": false,
-            "last_updated": "Thursday, June 23rd 2016, 8:21:59 pm",
-            "availability": "Thursday, June 23rd 2016, 8:21:59 pm"
+            "last_updated": "Sunday, November 27th 2016, 11:48:28 am",
+            "availability": "Sunday, November 27th 2016, 11:48:28 am"
+        },
+        {
+            "dining_hall": "Union",
+            "id": 4,
+            "available": true,
+            "last_updated": "Sunday, November 27th 2016, 12:24:02 am",
+            "availability": "Sunday, November 27th 2016, 12:24:02 am"
+        },
+        {
+            "dining_hall": "Moes",
+            "id": 5,
+            "available": false,
+            "last_updated": "Monday, November 28th 2016, 10:02:46 am",
+            "availability": "Monday, November 28th 2016, 10:02:46 am"
         }
     ]
 }
