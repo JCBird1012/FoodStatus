@@ -3,9 +3,9 @@
         {
             "dining_hall": "Blitman_Commons",
             "id": 0,
-            "available": false,
-            "last_updated": "Sunday, November 27th 2016, 11:14:18 pm",
-            "availability": "Sunday, November 27th 2016, 11:14:18 pm"
+            "available": true,
+            "last_updated": "Wednesday, November 30th 2016, 2:07:29 pm",
+            "availability": "Wednesday, November 30th 2016, 2:07:29 pm"
         },
         {
             "dining_hall": "Burdett_Avenue_Residence_Hall",
@@ -38,9 +38,9 @@
         {
             "dining_hall": "Rathskeller",
             "id": 5,
-            "available": true,
-            "last_updated": "Wednesday, November 30th 2016, 12:34:47 am",
-            "availability": "Sunday, November 27th 2016, 12:24:02 am"
+            "available": false,
+            "last_updated": "Wednesday, November 30th 2016, 1:55:07 pm",
+            "availability": "Wednesday, November 30th 2016, 1:55:07 pm"
         },
         {
             "dining_hall": "Moes",

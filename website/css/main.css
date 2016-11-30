@@ -19,7 +19,7 @@ p {
     background-size: 280px;
     background-repeat: no-repeat;
     width: 300px;
-    height: 650px;
+    height: 625px;
     float: left;
     margin-left: 70px;
     margin-top: 50px;
@@ -35,10 +35,11 @@ p {
 #din {
     background-color: #FFF;
     width: auto;
-    max-width: 1500px;
+    max-width: 55%;
     height: auto;
     float: left;
     margin-top: 50px;
+    margin-bottom: 100px;
     position: relative;
     left: 410px;
     background-image: url("../img/bk2.png");
@@ -122,11 +123,14 @@ li {
 
 footer {
     position: fixed;
-    bottom: 5px;
+    background-color: #FFF;
+    bottom: 0px;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     padding: 1.5em 0 0 0;
     text-align: center;
+    color: #333;
+    opacity: 0.9;
 }
 
 button {
