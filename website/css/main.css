@@ -1,192 +1,187 @@
 @charset "UTF-8";
 
-   body {
-         height: 100%;
-         background-image: url("../img/wbg.jpg");
-         background-color: #EEE;
-         background-attachment: fixed;
-         filter: brightness(100%);
-	   }
+body {
+    height: 100%;
+    background-image: url("../img/wbg.jpg");
+    background-color: #EEE;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: brightness(100%);
+}
 
-    #intro {
-        background-image: url("../img/bg.jpg");
-        background-size: 280px;
-        background-repeat: no-repeat;
-        width: 300px;
-        height: 650px;
-        float: left;
-        margin-left: 70px;
-        margin-top: 50px;
-        padding-left: 5px;
-        padding-right: 5px;
-        border-right: solid;
-        border-width: 1px;
-        border-color: #AAA;
-        position: fixed;
-        opacity: 0.75;
+p {
+    margin-bottom: 5px;
+    margin-top: 0;
+}
 
-    }
+#intro {
+    background-image: url("../img/bg.jpg");
+    background-size: 280px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 650px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-right: solid;
+    border-width: 1px;
+    border-color: #AAA;
+    position: fixed;
+    opacity: 0.75;
+}
 
-    #din {
-        background-color: #FFF;
-        width: 900px;
-        height: 650px;
-        float: left;
-        margin-top: 50px;
-        position: relative;
-        left: 410px;
-        background-image: url("../img/bk2.png");
-        background-size: 900px;
-        background-repeat: no-repeat;
-        background-position: bottom;
-        opacity: 0.75;
-    }
+#din {
+    background-color: #FFF;
+    width: auto;
+    max-width: 1500px;
+    height: auto;
+    float: left;
+    margin-top: 50px;
+    position: relative;
+    left: 410px;
+    background-image: url("../img/bk2.png");
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    opacity: 0.75;
+}
 
-    h1 {
-        margin-top: 300px;
-        font-family: 'Fugaz One', cursive;
-        font-size: 2.8em;
-    }
+.info {
+}
 
-    h2 {
-        font-family: 'Copse', serif;
-        font-size: 1em;
-        padding: 10px;
-        width: 250px;
-    }
+h1 {
+    margin-top: 300px;
+    font-family: 'Fugaz One', cursive;
+    font-size: 2.8em;
+}
 
-   p {
-      font-size:1em;
-   }
+h2 {
+    font-family: 'Copse', serif;
+    font-size: 1em;
+    padding: 10px;
+    width: 250px;
+}
 
-	.dininghall {
-		font-size: 30px;
-        font-family: 'Oswald', sans-serif;
-		width: 100%;
+p {
+    font-size: 1em;
+}
 
-	}
+.dininghall {
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+}
 
+.available {
+    visibility: visible;
+    color: #27ae60;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 5px;
+}
 
-	.available
-	{
-		visibility: visible;
-		color: #27ae60;
-		font-size: 20px;
-		font-family: 'Montserrat', sans-serif;
-		margin-right: 5px;
-	}
+.unavailable {
+    visibility: visible;
+    color: #e74c3c;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
 
-	.unavailable
-	{
-		visibility: visible;
-		color: #e74c3c;
-		font-size: 20px;
-		font-family: 'Montserrat', sans-serif;
-		margin: 0px;
-	}
+.greencheck {
+    max-width: 20px;
+    height: auto;
+    clear: right;
+    display: inline-block;
+}
 
-	.greencheck
-	{
-    	max-width: 20px;
-    	height: auto;
-    	clear: right;
-    	display: inline-block;
-	}
+.redx {
+    max-width: 20px;
+    height: auto;
+    clear: right;
+    display: inline-block;
+}
 
-	.redx
-	{
-		max-width: 20px;
-    	height: auto;
-    	clear: right;
-    	display: inline-block;
-	}
+.updated {
+    font-size: 10px;
+}
 
-	.updated
-	{
-		font-size: 10px;
-	}
+.timestamp {
+    font-size: 10px;
+}
 
-	.timestamp
-	{
-		font-size: 10px;
-	}
+li {
+    display: inline-block;
+    width: 45%;
+    padding-bottom: 1%;
+    padding: 1em;
+    margin-bottom: 2em;
+}
 
-   li {
-        display: inline-block;
-        width: 45%;
-        padding-bottom: 1%;
-        padding: 1em;
-        margin-bottom: 2em;
-   }
+footer {
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1.5em 0 0 0;
+    text-align: center;
+}
 
-	footer
-	{
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-		font-family: 'Montserrat', sans-serif;
-		padding: 1.5em 0 0 0;
-		text-align: center;
-	}
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: initial;
+    height: 2.0em;
+    line-height: 2.0em;
+    padding: 0 0.5em;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    background-color: transparent;
+    border-radius: 2px;
+    border: solid 1px #c8cccf;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
 
-	button {
-		font-family: 'Montserrat', sans-serif;
-        font-size: initial;
-		height: 2.0em;
-		line-height: 2.0em;
-		padding: 0 0.5em;
-        margin-top: 15px;
-		padding-bottom: 15px;
-		background-color: transparent;
-		border-radius: 2px;
-		border: solid 1px #c8cccf;
-		cursor: pointer;
-		text-align: center;
-		text-decoration: none;
-		white-space: nowrap;
-	}
+button.available {
+    font-size: initial;
+    margin-top: 15px;
+    border: solid 1px #c8cccf;
+}
 
-   button.available {
-        font-size: initial;
-        margin-top: 15px;
-        border: solid 1px #c8cccf;
-   }
+button.available:hover {
+    color: #FFF;
+    background-color: #27ae60;
+    transition: background-color 0.25s;
+}
 
-   button.available:hover {
-        color: #FFF;
-        background-color: #27ae60;
-        transition: background-color 0.25s;
-   }
+button.unavailable {
+    border: solid 1px #c8cccf;
+    margin-top: 15px;
+    font-size: initial;
+}
 
-   button.unavailable {
-        border: solid 1px #c8cccf;
-        margin-top: 15px;
-        font-size: initial;
-    }
-
-   button.unavailable:hover {
-        color: #FFF;
-        background-color: #e74c3c;
-        transition: background-color 0.25s;
-    }
+button.unavailable:hover {
+    color: #FFF;
+    background-color: #e74c3c;
+    transition: background-color 0.25s;
+}
 
 @media only screen and (max-device-width: 480px) {
-
-    li
-    {
-        margin: auto
-        display: inline-block;
+    li {
+        margin: auto display: inline-block;
         width: 100%;
         padding-bottom: 1%;
         padding: 1em;
     }
-
-    footer
-	{
+    footer {
         position: relative;
         bottom: 0;
         width: 100%;
-		font-family: 'Montserrat', sans-serif;
-		padding: 1.5em 0 0 0;
-		text-align: center;
-	}
+        font-family: 'Montserrat', sans-serif;
+        padding: 1.5em 0 0 0;
+        text-align: center;
+    }

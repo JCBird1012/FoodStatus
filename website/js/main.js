@@ -2,7 +2,7 @@ var connectionError = "<div class = \"unavailable\">Connection Error</div>"
 initalize();
 $(".dininghalls").on('click', 'button.update', function () {
   $(this).fadeOut(500);
-  var buttons = $("<button class = 'available'>Available</button><button class = 'unavailable'>Unavailable</button>").hide().fadeIn(500);
+  var buttons = $("<button class = 'available'>Not Crowded</button><button class = 'unavailable'>Crowded</button>").hide().fadeIn(500);
   $(this).replaceWith(buttons);
 });
 
@@ -40,7 +40,7 @@ function evalulate(data)
 {
 	var notCrowded, crowded, gettingCrowded, updateButton;
 
-	for (var i = 0; i <= 5; ++i)
+	for (var i = 0; i <= 6; ++i)
 	{
 		//TODO - Remove these from the loop... Have to figure out the best way to do that.
 		notCrowded = "<div class = \"available\">Not Crowded <i class=\"fa fa-check-circle\" aria-hidden=\"true\"></i> <div class = \"updated\">Last updated: " + data.results[i].last_updated + "</div>" + "<div class = \"timestamp\">Available since: " + data.results[i].availability + "</div> <button class = 'update'>Update</button> </div>";

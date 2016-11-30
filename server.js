@@ -30,7 +30,7 @@ app.get('/data/info', function(req, res) {
    {
       id = parseInt(id);
 
-      if (isNaN(id) || !(id >= 0 && id <= 5))
+      if (isNaN(id) || !(id >= 0 && id <= 6))
       {
          res.status(400);
          res.send("ID isn't an acceptable dining hall ID.");
@@ -57,7 +57,7 @@ function process(id, update, res)
          res.send("Available isn't a valid boolean.");
       }
 
-   else if (isNaN(id) || !(id >= 0 && id <= 5))
+   else if (isNaN(id) || !(id >= 0 && id <= 6))
       {
          res.status(400);
          res.send("ID isn't an acceptable dining hall ID.");
@@ -72,7 +72,7 @@ function process(id, update, res)
             }
 
          //You'll get a deprecation warning from moment here... That's fine (it doesn't break anything, yet...)
-         else if (moment().diff(moment(last_updated, ["dddd, MMMM Do YYYY, h:mm:ss a"]), 'hours') >= 6)
+         else if (moment().diff(moment(last_updated, ["dddd, MMMM Do YYYY, h:mm:ss a"]), 'minutes') >= 5)
             {
                //Update the availbility data... Since update is treated as a string, and we want it as a boolean, we check to ensure it equals true.
                json.path('data/data.json').modify('results[' + id + '][available]', (update === 'true'));
@@ -83,7 +83,7 @@ function process(id, update, res)
 
          else
             {
-                res.send("At least six hours must elapse from latest availability update before status can be changed.");
+                res.send("At least five minutes must elapse from latest update update before status can be changed.");
             }
       }
 }

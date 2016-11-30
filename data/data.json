@@ -29,18 +29,25 @@
             "availability": "Sunday, November 27th 2016, 11:48:28 am"
         },
         {
-            "dining_hall": "Union",
+            "dining_hall": "McNeil",
             "id": 4,
             "available": true,
-            "last_updated": "Sunday, November 27th 2016, 12:24:02 am",
+            "last_updated": "Wednesday, November 30th 2016, 12:31:47 am",
+            "availability": "Sunday, November 27th 2016, 12:24:02 am"
+        },
+        {
+            "dining_hall": "Rathskeller",
+            "id": 5,
+            "available": true,
+            "last_updated": "Wednesday, November 30th 2016, 12:34:47 am",
             "availability": "Sunday, November 27th 2016, 12:24:02 am"
         },
         {
             "dining_hall": "Moes",
-            "id": 5,
-            "available": false,
-            "last_updated": "Monday, November 28th 2016, 10:02:46 am",
-            "availability": "Monday, November 28th 2016, 10:02:46 am"
+            "id": 6,
+            "available": true,
+            "last_updated": "Wednesday, November 30th 2016, 12:32:30 am",
+            "availability": "Wednesday, November 30th 2016, 12:32:30 am"
         }
     ]
 }
