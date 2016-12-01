@@ -3,9 +3,9 @@
         {
             "dining_hall": "Blitman_Commons",
             "id": 0,
-            "available": true,
-            "last_updated": "Wednesday, November 30th 2016, 2:07:29 pm",
-            "availability": "Wednesday, November 30th 2016, 2:07:29 pm"
+            "available": false,
+            "last_updated": "Thursday, December 1st 2016, 1:17:35 am",
+            "availability": "Thursday, December 1st 2016, 1:17:35 am"
         },
         {
             "dining_hall": "Burdett_Avenue_Residence_Hall",
@@ -31,9 +31,9 @@
         {
             "dining_hall": "McNeil",
             "id": 4,
-            "available": true,
-            "last_updated": "Wednesday, November 30th 2016, 12:31:47 am",
-            "availability": "Sunday, November 27th 2016, 12:24:02 am"
+            "available": false,
+            "last_updated": "Thursday, December 1st 2016, 1:15:33 am",
+            "availability": "Thursday, December 1st 2016, 1:15:33 am"
         },
         {
             "dining_hall": "Rathskeller",
@@ -45,9 +45,9 @@
         {
             "dining_hall": "Moes",
             "id": 6,
-            "available": true,
-            "last_updated": "Wednesday, November 30th 2016, 12:32:30 am",
-            "availability": "Wednesday, November 30th 2016, 12:32:30 am"
+            "available": false,
+            "last_updated": "Thursday, December 1st 2016, 1:15:28 am",
+            "availability": "Thursday, December 1st 2016, 1:13:12 am"
         }
     ]
 }

@@ -7,10 +7,16 @@ body {
     background-size: cover;
     background-attachment: fixed;
     filter: brightness(100%);
+    overflow: none;
 }
 
 p {
     margin-bottom: 5px;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer p {
     margin-top: 0;
 }
 
@@ -22,7 +28,7 @@ p {
     height: 625px;
     float: left;
     margin-left: 70px;
-    margin-top: 50px;
+    margin-top: 25px;
     padding-left: 5px;
     padding-right: 5px;
     border-right: solid;
@@ -35,11 +41,11 @@ p {
 #din {
     background-color: #FFF;
     width: auto;
-    max-width: 55%;
+    max-width: 75%;
     height: auto;
     float: left;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin-top: 25px;
+    margin-bottom: 0px;
     position: relative;
     left: 410px;
     background-image: url("../img/bk2.png");
@@ -63,10 +69,6 @@ h2 {
     font-size: 1em;
     padding: 10px;
     width: 250px;
-}
-
-p {
-    font-size: 1em;
 }
 
 .dininghall {
@@ -130,7 +132,7 @@ footer {
     padding: 1.5em 0 0 0;
     text-align: center;
     color: #333;
-    opacity: 0.9;
+    opacity: 0.75;
 }
 
 button {
