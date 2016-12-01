@@ -83,7 +83,7 @@ function process(id, update, res)
 
          else
             {
-                res.send("At least five minutes must elapse from latest update update before status can be changed.");
+                res.send("At least five minutes must elapse from latest update before status can be changed.");
             }
       }
 }

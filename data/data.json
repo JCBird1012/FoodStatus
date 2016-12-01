@@ -3,30 +3,30 @@
         {
             "dining_hall": "Blitman_Commons",
             "id": 0,
-            "available": false,
-            "last_updated": "Thursday, December 1st 2016, 1:17:35 am",
-            "availability": "Thursday, December 1st 2016, 1:17:35 am"
+            "available": true,
+            "last_updated": "Thursday, December 1st 2016, 1:32:07 am",
+            "availability": "Thursday, December 1st 2016, 1:30:13 am"
         },
         {
             "dining_hall": "Burdett_Avenue_Residence_Hall",
             "id": 1,
             "available": true,
-            "last_updated": "Sunday, November 27th 2016, 12:23:55 am",
+            "last_updated": "Thursday, December 1st 2016, 1:32:02 am",
             "availability": "Thursday, June 23rd 2016, 8:27:38 pm"
         },
         {
             "dining_hall": "Commons",
             "id": 2,
-            "available": true,
-            "last_updated": "Sunday, November 27th 2016, 12:55:58 am",
-            "availability": "Sunday, November 27th 2016, 12:23:58 am"
+            "available": false,
+            "last_updated": "Thursday, December 1st 2016, 1:32:26 am",
+            "availability": "Thursday, December 1st 2016, 1:32:26 am"
         },
         {
             "dining_hall": "Sage",
             "id": 3,
-            "available": false,
-            "last_updated": "Sunday, November 27th 2016, 11:48:28 am",
-            "availability": "Sunday, November 27th 2016, 11:48:28 am"
+            "available": true,
+            "last_updated": "Thursday, December 1st 2016, 1:32:21 am",
+            "availability": "Thursday, December 1st 2016, 1:32:21 am"
         },
         {
             "dining_hall": "McNeil",
@@ -38,9 +38,9 @@
         {
             "dining_hall": "Rathskeller",
             "id": 5,
-            "available": false,
-            "last_updated": "Wednesday, November 30th 2016, 1:55:07 pm",
-            "availability": "Wednesday, November 30th 2016, 1:55:07 pm"
+            "available": true,
+            "last_updated": "Thursday, December 1st 2016, 1:32:19 am",
+            "availability": "Thursday, December 1st 2016, 1:32:19 am"
         },
         {
             "dining_hall": "Moes",
